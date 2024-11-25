@@ -1,0 +1,746 @@
+﻿% * LATIHAN SOAL ALJABAR
+% 
+% Nama  : Berliana Ata Rizky Safitri
+%% Kelas : Matematika B
+%% NIM   : 23030630005
+% 
+% ----
+%% * KB Pekan 3-4: Penggunaan Software EMT untuk Aljabar
+% 
+% ----
+%% 1. Melakukan operasi bentuk-bentuk Melakukan operasi bentuk-bentuk
+% aljabar (menjabarkan, menyederhanakan, memfaktorkan, dll.)
+%% 2. Melakukan perhitungan dengan berbagai operasi dan fungsi matematika
+%% 3. Melakukan perhitungan menggunakan bilangan kompleks
+%% 4. Melakukan perhitungan menggunakan fungsi-fungsi buatan sendiri
+%% 5. Menyelesaikan persamaan dan sistem persamaan
+%% 6. Menyelesaikan pertidaksamaan dan sistem pertidaksamaan
+%% 7. Melakukan manipuasi dan perhitungan menggunakan matriks dan vektor
+%% 8. Menggunakan aljabar untuk menyelesaikan masalah sehari-hari atau
+% dalam matematika dan bidang lain.
+% 
+% * R.2 Exercise set
+% 
+% Nomor 49
+%% Menyederhanakan:
+%% latex: \left(\frac{24a^{10}b^{-8}c^7}{12a^6b^{-3}c^5}\right)^{-5}
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-001.png
+% // latex: \left(\frac{24a^{10}b^{-8}c^7}{12a^6b^{-3}c^5}\right)^{-5}
+>$&((24*a^(10)*b^(-8)*c^7)/(12*a^6*b^(-3)*c^5))^(-5)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-002.png
+% // latex: \frac{b^{25}}{32\,a^{20}\,c^{10}}
+% Nomor 50
+%% Menyederhanakan:
+%% latex: \left(\frac{125p^{12}q^{-14}r^{22}}{25p^8q^6r^{-15}}\right)^{-4}
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-003.png
+% // latex: \left(\frac{125p^{12}q^{-14}r^{22}}{25p^8q^6r^{-15}}\right)^{-4}
+>$&((125*p^(12)*q^(-14)*r^(22))/25*p^8*q^6*r^(-15))^(-4)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-004.png
+% // latex: \frac{q^{32}}{625\,p^{80}\,r^{28}}
+% Nomor 90 
+%% calculate
+%% latex: 2^6*2^{-3}/2^{10}/2^{-8}
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-005.png
+% // latex: 2^6*2^{-3}/2^{10}/2^{-8}
+>2^6*2^-3/2^10/2^-8
+2
+% Nomor 91
+%% Calculate
+%% latex: \left(\frac{4(8-6)^2-4*3+2*8}{3^1+9^0}\right)
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-006.png
+% // latex: \left(\frac{4(8-6)^2-4*3+2*8}{3^1+9^0}\right)
+>(4*(8-6)^2 - 4*3 + 2*8)/(3^1+19^0)
+5
+% Nomor 92
+%% Calculate
+%% latex: \left(\frac{[4(8-6)^2-4](3+2*8)}{2^2(2^5+5)}\right)
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-007.png
+% // latex: \left(\frac{[4(8-6)^2-4](3+2*8)}{2^2(2^5+5)}\right)
+>((4*(8-6)^2-4)*3+2*8)/(3^1+9^0)
+13
+% * R.3 Exercise Set Perform the indicated operations.
+% 
+% Nomor 27 
+%% latex: (x+3)^2
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-008.png
+% // latex: (x+3)^2
+>$&showev('expand((x+3)^2))
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-009.png
+% // latex: {\it expand}\left(\left(x+3\right)^2\right)=x^2+6\,x+9
+% Nomor 29
+%% latex: (y-5)^2
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-010.png
+% // latex: (y-5)^2
+>$&showev('expand((y-5)^2))
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-011.png
+% // latex: {\it expand}\left(\left(y-5\right)^2\right)=y^2-10\,y+25
+% Nomor 33
+%% latex: (2x+3y)^2
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-012.png
+% // latex: (2x+3y)^2
+>$&showev('expand((2*x+3*y)^2))
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-013.png
+% // latex: {\it expand}\left(\left(3\,y+2\,x\right)^2\right)=9\,y^2+12\,x\,y+4  \,x^2
+% Nomor 39
+%% latex: (3y+4)(3y-4)
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-014.png
+% // latex: (3y+4)(3y-4)
+>$&showev('expand((3*y+4)*(3*y-4)))
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-015.png
+% // latex: {\it expand}\left(\left(3\,y-4\right)\,\left(3\,y+4\right)\right)=9  \,y^2-16
+% Nomor 42
+%% latex: (3x+5y)(3x-5y)
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-016.png
+% // latex: (3x+5y)(3x-5y)
+>$&showev('expand ((3*x + 5*y)*(3*x - 5*y)))
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-017.png
+% // latex: {\it expand}\left(\left(3\,x-5\,y\right)\,\left(5\,y+3\,x\right)  \right)=9\,x^2-25\,y^2
+% * R.4 Exercise Set Faktor Trinomial
+% Nomor 24
+%% latex: y^2+12y+27
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-018.png
+% // latex: y^2+12y+27
+>$&solve(y^2+12*y+27)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-019.png
+% // latex: \left[ y=-9 , y=-3 \right] 
+% Nomor 23
+%% latex: t^2+8t+15
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-020.png
+% // latex: t^2+8t+15
+>$&solve(t^2+8*t+15)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-021.png
+% // latex: \left[ t=-3 , t=-5 \right] 
+% Factor the difference of squares
+%% Nomor 47
+%% latex: z^2-81
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-022.png
+% // latex: z^2-81
+>$&solve(z^2-81)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-023.png
+% // latex: \left[ z=-9 , z=9 \right] 
+% Nomor 48
+%% latex: m^2-4
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-024.png
+% // latex: m^2-4
+>$&solve(m^2-4)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-025.png
+% // latex: \left[ m=-2 , m=2 \right] 
+% Nomor 49
+%% latex: 16x^2-9
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-026.png
+% // latex: 16x^2-9
+>$&solve(16*x^2-9)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-027.png
+% // latex: \left[ x=-\frac{3}{4} , x=\frac{3}{4} \right] 
+>
+% ** R.5 Exercise Set
+% 
+% Nomor 36
+%% Tentukan nilai y
+%% latex: y^2-4y-45=0
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-028.png
+% // latex: y^2-4y-45=0
+>$&solve(y^2-4*y-45,y)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-029.png
+% // latex: \left[ y=9 , y=-5 \right] 
+% Nomor 38
+%% Tentukan nilai y
+%% latex: t^2+6t=0
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-030.png
+% // latex: t^2+6t=0
+>$&solve(t^2+ 6*t,t)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-031.png
+% // latex: \left[ t=-6 , t=0 \right] 
+% Nomor 41
+%% tentukan nilai x
+%% latex: x^2 + 100 = 20x
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-032.png
+% // latex: x^2 + 100 = 20x
+>$&solve(x^2+100=20*x,x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-033.png
+% // latex: \left[ x=10 \right] 
+% Nomor 42
+%% Tentukan nilai y
+%% latex: y^2+25=10y
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-034.png
+% // latex: y^2+25=10y
+>$&solve(y^2+25=10*y,y)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-035.png
+% // latex: \left[ y=5 \right] 
+% Nomor 45
+%% Tentukan nilai y
+%% latex: 3y^2 + 8y + 4=0
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-036.png
+% // latex: 3y^2 + 8y + 4=0
+>$&solve(3*y^2 + 8*y + 4,y)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-037.png
+% // latex: \left[ y=-\frac{2}{3} , y=-2 \right] 
+% Nomor 47
+%% Tentukan nilai z
+%% latex: 12z^2+z=6
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-038.png
+% // latex: 12z^2+z=6
+>$&solve(12*z^2+z=6,z)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-039.png
+% // latex: \left[ z=-\frac{3}{4} , z=\frac{2}{3} \right] 
+% Nomor 60
+%% Tentukan nilai x
+%% latex: 5x^2-75=0
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-040.png
+% // latex: 5x^2-75=0
+>$&solve(5*x^2-75=0,x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-041.png
+% // latex: \left[ x=-\sqrt{15} , x=\sqrt{15} \right] 
+>
+% ** R.6 Exercise Set
+% 
+% Nomor 9
+%% Menyederhanakan
+%% latex: \frac{x^{2}-4}{x^{2}-4x+4}
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-042.png
+% // latex: \frac{x^{2}-4}{x^{2}-4x+4}
+>$&((x^2)/(x^2-4*x+4)), $&factor(%)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-043.png
+% // latex: \frac{x^2}{\left(x-2\right)^2}
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-044.png
+% Nomor 11
+%% Menyederhanakan
+%% latex: \frac{x^{3}-6x^{2}+9x}{x^{3}-3x^{2}}
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-045.png
+% // latex: \frac{x^{3}-6x^{2}+9x}{x^{3}-3x^{2}}
+>$&((x^3 - 6*x^2 + 9*x)/ (x^3 - 3*x^2)), $&factor(%)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-046.png
+% // latex: \frac{x-3}{x}
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-047.png
+% 
+% Nomor 14
+%% Menyederhanakan
+%% latex: \frac{2x^{2}-20x+50}{10x^{2}-30x-100}
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-048.png
+% // latex: \frac{2x^{2}-20x+50}{10x^{2}-30x-100}
+>$&((2*x^2-20*x+50)/(10*x^2-30*x-100)), $&factor(%)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-049.png
+% // latex: \frac{x-5}{5\,\left(x+2\right)}
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-050.png
+% Nomor 15
+%% Menyederhanakan
+%% latex: \frac{4-x}{x^{2}+4x-32}
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-051.png
+% // latex: \frac{4-x}{x^{2}+4x-32}
+>$&((4-x)/(x^2 +4*x-32)), $&factor(%)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-052.png
+% // latex: -\frac{1}{x+8}
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-053.png
+% 
+% Nomor 16
+%% Menyederhanakan
+%% latex: \frac{6-x}{x^{2}-36}
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-054.png
+% // latex: \frac{6-x}{x^{2}-36}
+>$&((6-x)/(x^2-36)), $&factor(%)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-055.png
+% // latex: -\frac{1}{x+6}
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-056.png
+>
+% 
+% Nomor 23
+%% latex: \frac{m^2 - n^2}{\left(s + \frac{m - n}{r}\right)(s + r)}
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-057.png
+% // latex: \frac{m^2 - n^2}{\left(s + \frac{m - n}{r}\right)(s + r)}
+>$&(((m^2-n^2)/(r+s))/((m-n)/r+s)), $&factor(%)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-058.png
+% // latex: \frac{\left(m-n\right)\,\left(n+m\right)\,r}{\left(s+r\right)\,  \left(r\,s-n+m\right)}
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-059.png
+% Nomor 25
+%% latex: \frac{(x - 4)^2 (3x + 12)}{(x + 4)^2 (2x - 8)}
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-060.png
+% // latex: \frac{(x - 4)^2 (3x + 12)}{(x + 4)^2 (2x - 8)}
+>$&(((3*x+12)/(2*x-8))/(((x+4)^2)/(x-4)^2)), $&factor(%)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-061.png
+% // latex: \frac{3\,\left(x-4\right)}{2\,\left(x+4\right)}
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-062.png
+% Nomor 28
+%% latex: \frac{(c^2 - 4c + 4)(c^3 + 8)}{(c^2 - 4)(c^2 - 2c + 4)(c - 2)}
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-063.png
+% // latex: \frac{(c^2 - 4c + 4)(c^3 + 8)}{(c^2 - 4)(c^2 - 2c + 4)(c - 2)}
+>$&(((c^3+8)/(c^2-4)) /((c^2 -2*c +4)/(c^2-4*c+4))), $&factor(%) 
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-064.png
+% // latex: c-2
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-065.png
+% * REVIEW Multiply
+% Nomor 73
+%% latex: (a^n-b^n)^x
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-066.png
+% // latex: (a^n-b^n)^x
+>function P(a,b,n,x) &= (a^n - b^n)^x; $&P(a,b,n,x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-067.png
+% // latex: \left(a^{n}-b^{n}\right)^{x}
+>$&P(a,b,n,3), $&expand(%)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-068.png
+% // latex: -b^{3\,n}+3\,a^{n}\,b^{2\,n}-3\,a^{2\,n}\,b^{n}+a^{3\,n}
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-069.png
+% Nomor 71
+>function P(a,n) &= (t^a+t^(-a))^n; $&P(a,n)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-070.png
+% // latex: \left(t^{a}+\frac{1}{t^{a}}\right)^{n}
+>$&P(a,2), $&expand(%)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-071.png
+% // latex: t^{2\,a}+\frac{1}{t^{2\,a}}+2
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-072.png
+>
+% Soal 39
+>$&solve(9*x^2-30*x+25,x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-073.png
+% // latex: \left[ x=\frac{5}{3} \right] 
+% soal nomor 41
+>$&solve(18*x^2-3*x+6,x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-074.png
+% // latex: \left[ x=\frac{1-\sqrt{47}\,i}{12} , x=\frac{\sqrt{47}\,i+1}{12}   \right] 
+% soal nomor 48
+>$&solve((8-3*x)=(-7+2*x),x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-075.png
+% // latex: \left[ x=3 \right] 
+% soal nomor 70
+>$& '((x^n+10)*(x^n-4)) = expand(((x^n+10)*(x^n-4)))
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-076.png
+% // latex: \left(x^{n}-4\right)\,\left(x^{n}+10\right)=x^{2\,n}+6\,x^{n}-40
+% soal nomor 71
+>$& '((t^a+t^(-a))^2) = expand(((t^a+t^(-a))^2))
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-077.png
+% // latex: \left(t^{a}+\frac{1}{t^{a}}\right)^2=t^{2\,a}+\frac{1}{t^{2\,a}}+2
+% soal nomor 72
+>$& '((y^b-z^c)*(y^b+z^c)) = expand((y^b-z^c)*(y^b+z^c))
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-078.png
+% // latex: \left(y^{b}-z^{c}\right)\,\left(z^{c}+y^{b}\right)=y^{2\,b}-z^{2\,c  }
+>
+% soal nomor 73
+>$& '((a^n-b^n)^3) = expand((a^n-b^n)^3)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-079.png
+% // latex: \left(a^{n}-b^{n}\right)^3=-b^{3\,n}+3\,a^{n}\,b^{2\,n}-3\,a^{2\,n}  \,b^{n}+a^{3\,n}
+% soal chapter R test nomor 32
+>$& '(((x^2+x-6)/(x^2+8*x+15))*((x^2-25)/(x^2-4*x+4))) = simplify(((x^2+x-6)/(x^2+8*x+15))*((x^2-25)/(x^2-4*x+4)))
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-080.png
+% // latex: \frac{\left(x^2-25\right)\,\left(x^2+x-6\right)}{\left(x^2-4\,x+4  \right)\,\left(x^2+8\,x+15\right)}={\it simplify}\left(\frac{\left(x  ^2-25\right)\,\left(x^2+x-6\right)}{\left(x^2-4\,x+4\right)\,\left(x  ^2+8\,x+15\right)}\right)
+>$&solve(((x^2+x-6)/(x^2+8*x+15))*((x^2-25)/(x^2-4*x+4)),x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-081.png
+% // latex: \left[ x=5 \right] 
+% soal nomor 33
+>$& '(((x)/(x^2-1))-((3)/(x^2+4*x-5)))=simplify(((x)/(x^2-1))-((3)/(x^2+4*x-5)))
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-082.png
+% // latex: \frac{x}{x^2-1}-\frac{3}{x^2+4\,x-5}={\it simplify}\left(\frac{x}{x  ^2-1}-\frac{3}{x^2+4\,x-5}\right)
+>$&solve(((x)/(x^2-1))-((3)/(x^2+4*x-5)))
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-083.png
+% // latex: \left[ x=-3 \right] 
+>
+% * 2.3 Exercise Set
+% 
+% Cari
+%% latex: \left(f\circ g\right)\left(x\right) dan \left(g\circ f\right)\left(x\right)
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-084.png
+% // latex: \left(f\circ g\right)\left(x\right) dan \left(g\circ f\right)\left(x\right)
+%% dan domain nya !
+% 
+% latex: 1. f(x)=x+3\ ,\ g(x)=x-3
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-085.png
+% // latex: 1. f(x)=x+3\ ,\ g(x)=x-3
+% 
+% latex: \left(f\circ g\right)\left(x\right)=
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-086.png
+% // latex: \left(f\circ g\right)\left(x\right)=
+>$&gx:=x-3; $&fx:=gx+3; $&fx
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-087.png
+% // latex: x
+% dengan domainnya
+%% latex: D_{f\circ g}=\left\{x\in\mathbb{R}\right\}
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-088.png
+% // latex: D_{f\circ g}=\left\{x\in\mathbb{R}\right\}
+% 
+% latex: \left(g\circ f\right)\left(x\right)=
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-089.png
+% // latex: \left(g\circ f\right)\left(x\right)=
+>$&fx:=x+3; $&gx:=fx-3; $&gx
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-090.png
+% // latex: x
+% dengan domainnya
+%% latex: D_{g\circ f}=\left\{x\in\mathbb{R}\right\}
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-091.png
+% // latex: D_{g\circ f}=\left\{x\in\mathbb{R}\right\}
+% 
+% latex: 2. f(x)=4/(1-5x)\ \ ,\ g(x)=1/x
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-092.png
+% // latex: 2. f(x)=4/(1-5x)\ \ ,\ g(x)=1/x
+%% latex: \left(f\circ g\right)\left(x\right)=
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-093.png
+% // latex: \left(f\circ g\right)\left(x\right)=
+>$&gx:=1/x; $&fx:=4/(1-5*gx); $&fx
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-094.png
+% // latex: \frac{4}{1-\frac{5}{x}}
+% dengan domain
+%% latex: D_{f\circ g}=\left\{x\in\mathbb{R}|x\neq 0\cup x\neq 5\right\}
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-095.png
+% // latex: D_{f\circ g}=\left\{x\in\mathbb{R}|x\neq 0\cup x\neq 5\right\}
+% 
+% latex: \left(g\circ f\right)\left(x\right)=
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-096.png
+% // latex: \left(g\circ f\right)\left(x\right)=
+>$&fx:=4/(1-5*x); $&gx:=1/fx; $&gx
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-097.png
+% // latex: \frac{1-5\,x}{4}
+% dengan domainnya
+%% latex: D_{g\circ f}=\left\{x\in\mathbb{R}\right\}
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-098.png
+% // latex: D_{g\circ f}=\left\{x\in\mathbb{R}\right\}
+% 
+% Diberikan fungsi
+%% latex: f(x)=3x+1 , g(x)=x^2-2x-6 , h(x)=x^3
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-099.png
+% // latex: f(x)=3x+1 , g(x)=x^2-2x-6 , h(x)=x^3
+% 
+% cari
+%% latex: 3.\ \left(f\circ g\right)\left(1/3\right)
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-100.png
+% // latex: 3.\ \left(f\circ g\right)\left(1/3\right)
+>$x:=1/3; $&gx:=x^2-2*x-6; $&fx:=3*gx+1; $&fx
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-101.png
+% // latex: -\frac{56}{3}
+% latex: 4. \left(g\circ h\right)\left(1/2\right)
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-102.png
+% // latex: 4. \left(g\circ h\right)\left(1/2\right)
+>$x:=1/2; $&hx:=x^3; $&gx:=hx^2-2*hx-6; $&gx
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-103.png
+% // latex: -\frac{399}{64}
+% latex: 5. \left(g\circ g\right)\left(-2\right)
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-104.png
+% // latex: 5. \left(g\circ g\right)\left(-2\right)
+>$x:=-2; $&gx:=x^2-2*x-6; $&gx:=gx^2-2*gx-6; $&gx
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-105.png
+% // latex: -6
+>
+% * 3.1 Exercise Set Use the quadratic formula to find exact solutions
+>$&solve(x^2-2= 15,x)
+Maxima said:
+solve: all variables must not be numbers.
+ -- an error. To debug this try: debugmode(true);
+
+Error in:
+ $&solve(x^2-2= 15,x) ...
+                    ^
+% Nomor 39
+%% latex: 5m^2+3m=2
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-106.png
+% // latex: 5m^2+3m=2
+>$&solve(5*m^2+3*m=2,m)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-107.png
+% // latex: \left[ m=\frac{2}{5} , m=-1 \right] 
+% Nomor 40
+%% latex: 2y^2-3y-2=0
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-108.png
+% // latex: 2y^2-3y-2=0
+>$&solve(2*y^2-3*y-2=0,y)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-109.png
+% // latex: \left[ y=-\frac{1}{2} , y=2 \right] 
+% Solve.
+%% Nomor 83
+%% latex: y^4+4y^2-5=0
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-110.png
+% // latex: y^4+4y^2-5=0
+>$&solve(y^4+4*y^2-5=0,y)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-111.png
+% // latex: \left[ y=-1 , y=1 , y=-\sqrt{5}\,i , y=\sqrt{5}\,i \right] 
+% Nomor 84
+%% latex: y^4-15y^2-16=0
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-112.png
+% // latex: y^4-15y^2-16=0
+>$&solve(y^4-15*y^2-16=0,y)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-113.png
+% // latex: \left[ y=-i , y=i , y=-4 , y=4 \right] 
+% * 3.4 Exercise Set Solve
+% Nomor 1
+>$&solve(1/4+1/5=1/t,t)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-114.png
+% // latex: \left[ t=\frac{20}{9} \right] 
+>
+% Nomor 6
+>$&solve(1/t+1/2*t+1/3*t=5,t)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-115.png
+% // latex: \left[ t=\frac{15-\sqrt{195}}{5} , t=\frac{\sqrt{195}+15}{5}   \right] 
+>
+>
+% Nomor 18
+>$&solve(3*y+5/y^2+5*y +y+4/y+5=y+1/y,y)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-116.png
+% // latex: \left[ y=-\frac{47\,\left(\frac{\sqrt{3}\,i}{2}-\frac{1}{2}\right)  }{576\,\left(\frac{\sqrt{35539}}{128\,3^{\frac{3}{2}}}-\frac{3905}{  13824}\right)^{\frac{1}{3}}}+\left(\frac{\sqrt{35539}}{128\,3^{  \frac{3}{2}}}-\frac{3905}{13824}\right)^{\frac{1}{3}}\,\left(-\frac{  \sqrt{3}\,i}{2}-\frac{1}{2}\right)-\frac{5}{24} , y=\left(\frac{  \sqrt{35539}}{128\,3^{\frac{3}{2}}}-\frac{3905}{13824}\right)^{  \frac{1}{3}}\,\left(\frac{\sqrt{3}\,i}{2}-\frac{1}{2}\right)-\frac{  47\,\left(-\frac{\sqrt{3}\,i}{2}-\frac{1}{2}\right)}{576\,\left(  \frac{\sqrt{35539}}{128\,3^{\frac{3}{2}}}-\frac{3905}{13824}\right)  ^{\frac{1}{3}}}-\frac{5}{24} , y=\left(\frac{\sqrt{35539}}{128\,3^{  \frac{3}{2}}}-\frac{3905}{13824}\right)^{\frac{1}{3}}-\frac{47}{576  \,\left(\frac{\sqrt{35539}}{128\,3^{\frac{3}{2}}}-\frac{3905}{13824}  \right)^{\frac{1}{3}}}-\frac{5}{24} \right] 
+% * 3.5 Exercise Set
+>&load(fourier_elim)
+
+        C:/Program Files/Euler x64/maxima/share/maxima/5.35.1/share/f\
+ourier_elim/fourier_elim.lisp
+
+% Nomor 23
+>$&(abs(x+3)-2=8)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-117.png
+% // latex: \left| x+3\right| -2=8
+>$&solve(abs(x+3)-2=8)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-118.png
+% // latex: \left[ \left| x+3\right| =10 \right] 
+% Nomor 24
+>$&(abs(x-4)+3=9)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-119.png
+% // latex: \left| x-4\right| +3=9
+>$&solve(abs(x-4)+3=9)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-120.png
+% // latex: \left[ \left| x-4\right| =6 \right] 
+% Nomor 25
+>$&(abs(3*x+1)-4=-1)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-121.png
+% // latex: \left| 3\,x+1\right| -4=-1
+>$&solve(abs(3*x+1)-4=-1)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-122.png
+% // latex: \left[ \left| 3\,x+1\right| =3 \right] 
+% Nomor 30
+>$&(9-abs(x-2)=7)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-123.png
+% // latex: 9-\left| x-2\right| =7
+>$&solve(9-abs(x-2)=7)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-124.png
+% // latex: \left[ \left| x-2\right| =2 \right] 
+% Nomor 32
+>$&(5-abs(4*x+3)=2)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-125.png
+% // latex: 5-\left| 4\,x+3\right| =2
+>$&solve(5-abs(4*x+3)=2)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-126.png
+% // latex: \left[ \left| 4\,x+3\right| =3 \right] 
+>
+>
+>
+>
+>
+>
+% * Chapter 3 Test
+% Nomor 8
+>$&solve(3/3*x+4 + 2/x-1 =2,x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-127.png
+% // latex: \left[ x=\frac{-\sqrt{7}\,i-1}{2} , x=\frac{\sqrt{7}\,i-1}{2}   \right] 
+>$load(fourier_elim)
+% Nomor 11
+>$&fourier_elim([x+4]=7,[x])//x+4=7
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-128.png
+% // latex: \left[ \left[ x-3 \right] =0 \right] 
+% Nomor 12
+>$&fourier_elim([4*y-3]=5,[x])//4*y-3=5
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-129.png
+% // latex: \left[ \left[ 4\,\left(y-2\right) \right] =0 \right] 
+% Solve
+%% Nomor 13
+>$&fourier_elim([x+3]<=4,[x])//x+3<=4
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-130.png
+% // latex: \left[ \left[ x-1 \right] =0 \right] \lor \left[ \left[ 1-x   \right] >0 \right] 
+% Nomor 15
+>$&fourier_elim([x+5]>2,[x])//x+5>2
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-131.png
+% // latex: \left[ \left[ x+3 \right] >0 \right] 
+>
+% * 4.1 Exercise Set
+% Use the substitution to determine whether 2,3 and -1 are zeros of
+%% Nomor 23
+>function P(x) &= (x^3-9*x^2+14*x+24); $&P(x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-132.png
+% // latex: -48
+>P(4)
+-48
+>P(5)
+-48
+>P(-2)
+-48
+% Jadi hasil substitusi yang menghasilkan persamaan mempunyai nilai nol
+% adalah dengan mensubtsisusi angka 4
+% 
+% Nomor 24
+>function P(x) &= (2*x^3-3*x^2+x+6);$&P(x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-133.png
+% // latex: -24
+>P(2)
+-24
+>P(3)
+-24
+>P(-1)
+-24
+% Jadi hasil substitusi yang menghasilkan persamaan mempunyai nilai nol
+% adalah dengan mensubtsisusi angka -1
+% 
+% Nomor 25
+>function P(x) &= (x^4-6*x^3+8*x^2+6*x-9);$&P(x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-134.png
+% // latex: 75
+>P(2)
+75
+>P(3)
+75
+>P(-1)
+75
+% Jadi hasil substitusi yang menghasilkan persamaan mempunyai nilai nol
+% adalah dengan mensubtsisusi angka 3 dan -1
+% 
+>
+>
+% * 4.3 Exercise Set
+% 
+% Nomor 1
+%% For the function
+%% latex: f(x)= x^4-6x^3+x^2+24x-20
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-135.png
+% // latex: f(x)= x^4-6x^3+x^2+24x-20
+%% use long division to determine whether each of the following is a
+% factor of f(x)
+% 
+% a) x+1
+%% b) x-2
+%% c) x + 5
+>function f(x) &= (x^4-6*x^3+x^2+24*x-20);$&f(x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-136.png
+% // latex: x^4-6\,x^3+x^2+24\,x-20
+>$&f(x+1), $&expand(%)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-137.png
+% // latex: x^4-2\,x^3-11\,x^2+12\,x
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-138.png
+>$&f(x-2), $&expand(%)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-139.png
+% // latex: x^4-14\,x^3+61\,x^2-84\,x
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-140.png
+>$&f(x+5), $&expand(%)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-141.png
+% // latex: x^4+14\,x^3+61\,x^2+84\,x
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-142.png
+% Nomor 23
+%% Use synthetic division to find the function values.
+%% latex: f(x) = x^3-6x^2+11x-6
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-143.png
+% // latex: f(x) = x^3-6x^2+11x-6
+%% find f(1), f(-2), dan f(3)
+>function f(x) &= (x^3-6*x^2+11*x-6);$&f(x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-144.png
+% // latex: x^3-6\,x^2+11\,x-6
+>f(1)
+0
+>f(-2)
+-60
+>f(3)
+-60
+% Nomor 24
+%% latex: f(x)=x63+7x^2-12x-3
+%% find f(-3),f(-2), dan f(1)
+>function f(x) &= (x^3+7*x^2-12*x-3);$&f(x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-145.png
+% // latex: 41
+>f(-3)
+41
+>
+>f(-2)
+41
+>f(1)
+41
+% Nomor 25
+%% latex: f(x) = x^4-3x^2+2x+8 
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-146.png
+% // latex: f(x) = x^4-3x^2+2x+8 
+%% find f(-1),f(4) dan f(-5)
+>function f(x) &= (x^4-3*x^3+2*x+8);$&f(x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-147.png
+% // latex: 44
+>f(-1)
+44
+>f(4)
+44
+>f(-5)
+44
+% Factor the polynomial function f(x). Then Solve the equation f(x)=0
+%% Nomor 39
+%% latex: f(x)=x^3+4x^2+x-6
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-148.png
+% // latex: f(x)=x^3+4x^2+x-6
+>fx &= (x^3+4*x^2+x-6=0); $&fx
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-149.png
+% // latex: x^3+4\,x^2+x-6=0
+>$&factor((fx,x^3+4*x^2+x-6=0))
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-150.png
+% // latex: \left(x-1\right)\,\left(x+2\right)\,\left(x+3\right)=0
+>
+% Nomor 40
+%% latex: f(x)=x^3+5x^2-2x-24
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-151.png
+% // latex: f(x)=x^3+5x^2-2x-24
+>fx &= (x^3+5*x^2-2*x-24=0); $&fx
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-152.png
+% // latex: x^3+5\,x^2-2\,x-24=0
+>$&factor((fx,x^3+5*x^2-2*x-24=0))
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-153.png
+% // latex: \left(x-2\right)\,\left(x+3\right)\,\left(x+4\right)=0
+>
+% * Mid-Chapter Mixed Review Use synthetic division to find the function
+% values
+%% Nomor 18
+%% latex: g(x) = x^3-9x^2+4x-10
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-154.png
+% // latex: g(x) = x^3-9x^2+4x-10
+%% find g(-5)
+>function g(x) &= (x^3-9*x^2+4*x-10);$&g(x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-155.png
+% // latex: x^3-9\,x^2+4\,x-10
+>g(-5)
+-380
+% Nomor 19
+%% latex: f(x)=20x^2-40x
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-156.png
+% // latex: f(x)=20x^2-40x
+%% find f(1/2)
+>function f(x) &= (20*x^2-40*x);$&f(x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-157.png
+% // latex: 20\,x^2-40\,x
+>f(1/2)
+-15
+% Using synthetic division, determine whether the numbers are zeros of
+% the polynomial function.
+%% Nomor 22
+%% -1,5;
+%% latex: f(x)=x^6-35x^4+259x^2-225
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-158.png
+% // latex: f(x)=x^6-35x^4+259x^2-225
+>function f(x) &= (x^6-35*x^4+259*x^2-225);$&f(x)
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-159.png
+% // latex: x^6-35\,x^4+259\,x^2-225
+>f(-1.5)
+191.953125
+>
+% Factor the polynomial function f(x). Then solve the equation f(x) =0.
+%% Nomor 23
+%% latex: h(x) = x^3-2x^2-55x+56
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-160.png
+% // latex: h(x) = x^3-2x^2-55x+56
+>hx &= (x^3-2*x^2-55*x+56=0); $&hx
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-161.png
+% // latex: x^3-2\,x^2-55\,x+56=0
+>$&factor((hx,x^3-2*x^2-55*x+56=0))
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-162.png
+% // latex: \left(x-8\right)\,\left(x-1\right)\,\left(x+7\right)=0
+% Nomor 24
+%% latex: g(x) = x^4-2x^3-13x^2+14x+24
+% %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-163.png
+% // latex: g(x) = x^4-2x^3-13x^2+14x+24
+>gx &= (x^4-2*x^3-13*x^2+14*x+24=0); $&gx
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-164.png
+% // latex: x^4-2\,x^3-13\,x^2+14\,x+24=0
+>$&factor((gx,x^4-2*x^3-13*x^2+14*x+24=0))
+ %image% Berliana Ata Rizky Safitri_23030630005_Latihan Aljabar EMT-165.png
+% // latex: \left(x-4\right)\,\left(x-2\right)\,\left(x+1\right)\,\left(x+3  \right)=0
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
